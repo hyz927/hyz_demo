@@ -3,6 +3,11 @@ package com.example.leetcode;
 import java.util.HashMap;
 
 public class LeetCode1 {
+    /**
+     * 时间复杂度O(n^2)
+     * @param array
+     * @param target
+     */
     public static void getResult(int[] array,int target){
         long startTime = System.currentTimeMillis();
         for(int i=0;i<array.length;i++){
